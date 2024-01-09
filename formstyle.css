@@ -142,6 +142,40 @@ textarea {
     input[type=radio]:checked + label:after {
     opacity: 1;
     }
+    label.checkbox {
+        position: relative;
+        display: inline-block;
+        margin: 5px 20px 15px 0;
+        cursor: pointer;
+        }
+    label.checkbox:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        }
+        input[type=checkbox]:checked + label:before, label.checkbox:hover:before {
+        border: 2px solid  #669999;
+        }
+        label.checkbox:after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 5px;
+        width: 8px;
+        height: 4px;
+        border: 3px solid  #669999;
+        border-top: none;
+        border-right: none;
+        transform: rotate(-45deg);
+        opacity: 0;
+        }
+        input[type=checkbox]:checked + label:after {
+        opacity: 1;
+        }
     .flax {
     display:flex;
     justify-content:space-around;
