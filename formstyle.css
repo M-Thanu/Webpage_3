@@ -79,7 +79,7 @@ textarea {
     border: 1px solid transparent;
     box-shadow: 0 0 3px 0  #669999;
     color: #669999;
-} /*let's check after*/
+} 
     .item {
     position: relative;
     margin: 10px 0;
@@ -87,10 +87,10 @@ textarea {
     .item span {
     color: red;
     }
-    .week {
+    /*.week {
     display:flex;
     justfiy-content:space-between;
-    }
+    }*/
     .colums {
     display:flex;
     justify-content:space-between;
@@ -100,9 +100,9 @@ textarea {
     .colums div {
     width:48%;
     }
-    input[type="date"]::-webkit-inner-spin-button {
+    /*input[type="date"]::-webkit-inner-spin-button {
     display: none;
-    }
+    }*/
     .item i, input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     font-size: 20px;
