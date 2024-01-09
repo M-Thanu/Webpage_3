@@ -127,7 +127,7 @@ textarea {
     }
     /*.question-answer label {
     display: block;
-    }*/
+    }
     label.radio:before {
     content: "";
     position: absolute;
@@ -155,7 +155,7 @@ textarea {
     }
     input[type=radio]:checked + label:after {
     opacity: 1;
-    }
+    }*/
     .flax {
     display:flex;
     justify-content:space-around;
