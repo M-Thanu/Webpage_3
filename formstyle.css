@@ -125,7 +125,7 @@ textarea {
     .question span {
     margin-left: 30px;
     }
-    /*.question-answer label {
+    .question-answer label {
     display: block;
     }
     label.radio:before {
@@ -144,7 +144,7 @@ textarea {
     content: "";
     position: absolute;
     top: 6px;
-    left: 5px;
+    left: 10px;
     width: 8px;
     height: 4px;
     border: 3px solid  #669999;
@@ -155,7 +155,7 @@ textarea {
     }
     input[type=radio]:checked + label:after {
     opacity: 1;
-    }*/
+    }
     .flax {
     display:flex;
     justify-content:space-around;
