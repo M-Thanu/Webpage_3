@@ -102,12 +102,12 @@ textarea {
     }
     /*input[type="date"]::-webkit-inner-spin-button {
     display: none;
-    }*/
+    }
     .item i, input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     font-size: 20px;
     color:  #a3c2c2;
-    }
+    }*/
     .item i {
     right: 1%;
     top: 30px;
@@ -125,9 +125,9 @@ textarea {
     .question span {
     margin-left: 30px;
     }
-    .question-answer label {
+    /*.question-answer label {
     display: block;
-    }
+    }*/
     label.radio:before {
     content: "";
     position: absolute;
