@@ -17,27 +17,34 @@
             <br/>
             <div class="colums">
               <div class="item">
-                <label for="name">Fullname<span>*</span></label>
-                <input id="name" type="text" name="name" required/>
+                <div class="tooltip">
+                  <label for="name">Fullname<span class="star">*</span></label>
+                  <span class="tooltiptext">Enter your Fullname</span></div>
+                  <input id="name" type="text" name="name" required/>
+                
               </div>
               <div class="item">
-                <label for="email">Email Address<span>*</span></label>
+                <div class="tooltip">
+                <label for="email">Email Address<span class="star">*</span></label>
+                <span class="tooltiptext">Enter your mail address</span></div>
                 <input id="email" type="text"   name="email" placeholder="example@gmail.com" required/>
               </div>
               <div class="item">
-                <label for="phone">Contact Number:<span>*</span></label>
+                <div class="tooltip"><label for="phone">Contact Number:<span class="star">*</span></label>
+                <span class="tooltiptext">Whatsapp number is desirable</span></div>
                 <input id="phone" type="tel"   name="phone" required/>
               </div>
               <div class="item">
-                <label for="address">Address:<span>*</span></label>
+                <div class="tooltip"><label for="address">Address:<span class="star">*</span></label>
+                <span class="tooltiptext">Mention your postal code</span></div>
                 <input id="address" type="text"   name="address" required/>
               </div>
               <div class="item">
-                <label for="dob">Date of Birth:<span>*</span></label>
+                <label for="dob">Date of Birth:<span class="star">*</span></label>
                 <input id="dob" type="date" name="dob" required/>
               </div>
               <div class="item">
-                <label>Gender:<span>*</span></label>
+                <label>Gender:<span class="star">*</span></label>
                 <div class="question-answer">
                   <input type="radio" id="gmale" name="gender" value="male">
                   <label for="gmale" class="radio"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male</span></label>
@@ -46,8 +53,8 @@
               </div>
             </div>
             <div class="item">
-            <p> Languages you are applying for :   
-                <div class="question-answer">
+                 <p> Languages you are applying for : 
+                <div class="question-answer"> 
                     <input type="checkbox" id="python" name="python" value="python">
                     <label for="python" class="checkbox"> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python</span>  </label>
                     <input type="checkbox" id="C" name="C" value="C">
@@ -62,7 +69,9 @@
             </p>
             </div>
             <div class="item">
+              <div class="tooltip">
                 <p>Mode : &nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="tooltiptext">Tell us about your transport availability</span></div>
                 <select>
                   <option selected value="" disabled selected></option>
                   <option value="virtual" >Virtual</option>
