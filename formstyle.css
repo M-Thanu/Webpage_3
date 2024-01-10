@@ -179,10 +179,14 @@ textarea {
         input[type=checkbox]:checked + label:after {
         opacity: 1;
         }
-    .flax {
+        select{
+            display: flex;
+            align-items: flex-start;
+        }
+    /*.flax {
     display:flex;
     justify-content:space-around;
-    }
+    }*/
     .btn-block {
     margin-top: 10px;
     text-align: center;
