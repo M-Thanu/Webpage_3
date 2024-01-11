@@ -183,6 +183,10 @@ textarea {
             display: flex;
             align-items: flex-start;
         }
+        .item option:hover {background-color: #daf0ff;}
+
+        /*.dropdown:hover .dropdown-content {display: block;}*/
+
     /*.flax {
     display:flex;
     justify-content:space-around;
