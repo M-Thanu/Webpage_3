@@ -195,7 +195,7 @@ textarea {
     margin-top: 10px;
     text-align: center;
     }
-    button {
+    .endtwobutton {
     width: 150px;
     padding: 10px;
     border: none;
@@ -205,7 +205,7 @@ textarea {
     color: #fff;
     cursor: pointer;
     }
-    button:hover {
+    .endtwobutton:hover {
     background:  #a3c2c2;
     }
     @media (min-width: 568px) {
@@ -248,4 +248,26 @@ textarea {
       
       .tooltip:hover .tooltiptext {
         visibility: visible;
+      }
+      /*
+      #acc{
+        margin: 1rem;
+        padding: 2rem 2rem;
+      }
+      #pwd,#eye {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+      }*/
+     
+    
+      button{
+        width: 100px;
+        /*padding: 10px;*/
+        border: none;
+        border-radius: 5px; 
+        /*background:  #669999;
+        font-size: 16px;
+        color: #fff;*/
+        cursor: pointer;
       }
